@@ -21,7 +21,7 @@ const Header = () => {
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse isOpen={menuOpen} navbar>
-        <nav className='ms-auto' navbar >
+        <Nav className='ms-auto' navbar >
           <NavItem>
             <NavLink className='nav-link' to='/' >
               <i className='fa fa-home fa-lg' /> Home
@@ -42,7 +42,7 @@ const Header = () => {
               <i className='fa fa-address-card fa-lg' /> Contact
             </NavLink>          
           </NavItem>
-        </nav>
+        </Nav>
       </Collapse>
     </Navbar>
   );
