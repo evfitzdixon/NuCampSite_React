@@ -37,7 +37,7 @@ const ContactForm = () => {
             />          
           <ErrorMessage name='firstName'>
             {(msg) => <p className='text-danger'>{msg}</p>}
-            </ErrorMessage>
+          </ErrorMessage>
           </Col>
         </FormGroup>
         <FormGroup row>
